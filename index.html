@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+
+    <title>Netflix Survey Form</title>
+</head>
+<body>
+    <H1>NET<span>FLİX</span></H1>
+    <p> Thank You for signing up at Netflix. Tell us more about yourself</p>
+   <form action="./result.html">
+<table>
+    <tr>
+        <td>
+            <label for="name" class="open">Name</label><br><input class="name"  type="text" name="name" id="name" placeholder="Enter Your Name">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="age" class="open">Age</label><br><input class="name" type="number" name="age" id="age" placeholder="Age">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="email" class="open">Email</label><br><input class="name" type="email" name="email" id="email" placeholder="Enter Your email">
+        </td>
+    </tr>
+    <tr class="sec">
+        <td><label for="type" class="open">Content type</label><br>
+            <select name="type" id="type" size="1" class="name">
+                <option value="">Series</option>
+                <option value="">Cartoons</option>
+                <option value="">Actions</option>
+                <option value="">Documentaries</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="movie">Movie types</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" name="movie" id="movie"><label for="movie">Comedys</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" name="movie" id="movie"><label for="movie">Action</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" name="movie" id="movie"><label for="movie">Romance</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="Gender">Gender</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="Gender" id="Gender"><label for="Gender">Comedy</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="Gender" id="Gender"><label for="Gender">Action</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="Gender" id="Gender"><label for="Gender">Romance</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="feed" class="open">Feed back</label><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Any Comment"></textarea></td>
+    </tr>
+    
+
+
+</table>
+<input type="submit" value="Submit" class="sub">
+   </form>
+   
+</body>
+</html>
