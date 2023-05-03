@@ -1,0 +1,69 @@
+
+body{background-image: url(./img/background_image\ \(1\).jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+}
+h1 span{
+    color: red;
+}
+table{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.name{width: 95%;
+    padding: 10px;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+form{
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    background-color: rgba(20, 19, 19, 0.8);
+    padding: 25px;
+  
+   
+}
+form label{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 25px;
+    /* line-height: 35px;   */
+    
+}
+
+.open{
+    line-height: 35px;
+}
+textarea{
+    resize: vertical;
+    width: 80%;
+}
+form button{
+   border: none;
+   background-color: red;
+   border-radius: 20px;
+   text-align: center;
+   /* margin-left: 95px; */
+   margin: 20px 100px;
+   color: white;
+   padding: 8px;
+   font-weight: bolder;
+   width: 120px;
+   cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: red;}
+    
